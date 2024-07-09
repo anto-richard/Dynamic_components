@@ -63,8 +63,8 @@ function StudentInfo() {
     <Container>
       <Photo src={photo} alt="Student Photo" />
       <Info>
-        <h2>Anto Richard. S</h2>
-        <p>Registration Number: 212221240005</p>
+        <h2>Name : Anto Richard. S</h2>
+        <p>Registration Number : 212221240005</p>
       </Info>
       <ToggleButton onClick={toggleVisibility}>
         {isVisible ? 'Hide Details' : 'Show Details'}
